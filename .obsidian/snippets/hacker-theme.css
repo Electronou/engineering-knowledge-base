@@ -1,0 +1,321 @@
+/* Hacker Theme - Premium Dark Mode */
+
+:root {
+  --color-base-00: #0a0e27;
+  --color-base-10: #0d1117;
+  --color-base-20: #161b22;
+  --color-base-30: #21262d;
+  --color-base-100: #c9d1d9;
+  --primary-green: #00ff88;
+  --primary-blue: #00bfff;
+  --accent-purple: #b537f2;
+  --accent-pink: #ff006e;
+  --accent-orange: #ff8c00;
+  --accent-cyan: #00f0ff;
+}
+
+/* Main background */
+.workspace {
+  background-color: var(--color-base-00);
+}
+
+.cm-s-obsidian {
+  background-color: var(--color-base-10) !important;
+  color: var(--color-base-100);
+}
+
+/* Sidebar styling */
+.nav-folder,
+.nav-file {
+  color: var(--color-base-100);
+}
+
+.nav-folder.active > .nav-folder-title,
+.nav-file.active > .nav-file-title {
+  background-color: var(--color-base-30);
+  color: var(--primary-green);
+  font-weight: 600;
+}
+
+.nav-folder-title:hover,
+.nav-file-title:hover {
+  background-color: var(--color-base-20);
+}
+
+/* Headers with gradient effect */
+.cm-header {
+  color: var(--primary-green) !important;
+  font-weight: bold;
+}
+
+.cm-header-1 {
+  color: var(--primary-green) !important;
+  font-size: 1.8em;
+}
+
+.cm-header-2 {
+  color: var(--primary-blue) !important;
+  font-size: 1.5em;
+}
+
+.cm-header-3 {
+  color: var(--accent-cyan) !important;
+}
+
+/* Links styling */
+.cm-link {
+  color: var(--primary-blue) !important;
+  text-decoration: underline wavy;
+}
+
+.internal-link,
+.internal-link.is-unresolved {
+  color: var(--primary-blue);
+  font-weight: 500;
+}
+
+.internal-link:hover,
+.internal-link.is-unresolved:hover {
+  color: var(--primary-green);
+  background-color: rgba(0, 255, 136, 0.1);
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+/* Code blocks */
+.cm-s-obsidian .HyperMD-codeblock,
+.markdown-source-view .HyperMD-codeblock {
+  background-color: var(--color-base-00) !important;
+  border: 1px solid var(--primary-green) !important;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.cm-formatting-code {
+  color: var(--primary-green) !important;
+}
+
+pre {
+  background-color: var(--color-base-00) !important;
+  border: 1px solid var(--primary-blue) !important;
+  border-radius: 6px;
+  padding: 12px;
+  color: var(--color-base-100);
+}
+
+pre code {
+  color: var(--primary-green);
+}
+
+/* Inline code */
+code {
+  background-color: rgba(0, 255, 136, 0.1);
+  color: var(--primary-green);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+/* Lists */
+.cm-formatting-list {
+  color: var(--accent-cyan) !important;
+}
+
+.cm-list1,
+.cm-list2 {
+  color: var(--primary-blue) !important;
+}
+
+/* Emphasis and strong */
+.cm-em {
+  color: var(--accent-orange);
+  font-style: italic;
+}
+
+.cm-strong {
+  color: var(--primary-green);
+  font-weight: bold;
+}
+
+/* Blockquotes */
+.cm-quote {
+  color: var(--accent-purple);
+  border-left: 3px solid var(--primary-blue);
+  padding-left: 12px;
+}
+
+/* Tabs */
+.workspace-tab-header {
+  background-color: var(--color-base-10);
+  border-bottom: 2px solid var(--color-base-20);
+}
+
+.workspace-tab-header.is-active {
+  background-color: var(--color-base-20);
+  border-bottom: 2px solid var(--primary-green);
+  color: var(--primary-green);
+}
+
+/* Search and input */
+.search-input-container input,
+input[type="text"],
+input[type="search"] {
+  background-color: var(--color-base-20);
+  border: 1px solid var(--primary-blue);
+  color: var(--color-base-100);
+  caret-color: var(--primary-green);
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+.search-input-container input:focus,
+input[type="text"]:focus,
+input[type="search"]:focus {
+  background-color: var(--color-base-30);
+  border-color: var(--primary-green);
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+/* Buttons */
+button,
+.button {
+  background-color: var(--color-base-30);
+  color: var(--primary-green);
+  border: 1px solid var(--primary-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+.button:hover {
+  background-color: rgba(0, 255, 136, 0.1);
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);
+  color: var(--primary-green);
+  border-color: var(--primary-green);
+}
+
+/* Status bar */
+.status-bar {
+  background-color: var(--color-base-20);
+  border-top: 1px solid var(--primary-green);
+  color: var(--primary-green);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-base-20);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-green);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-blue);
+}
+
+/* Backlink panel */
+.backlink-pane {
+  background-color: var(--color-base-10);
+}
+
+.search-result-file-title {
+  color: var(--primary-green);
+}
+
+.search-result-file-matched-text {
+  background-color: rgba(0, 255, 136, 0.2);
+  color: var(--primary-green);
+  font-weight: bold;
+}
+
+/* Vault switcher and more */
+.vault-name {
+  color: var(--primary-green);
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+}
+
+table th {
+  background-color: rgba(0, 255, 136, 0.1);
+  color: var(--primary-green);
+  border: 1px solid var(--primary-blue);
+  padding: 8px;
+  font-weight: bold;
+}
+
+table td {
+  border: 1px solid var(--color-base-30);
+  padding: 8px;
+  color: var(--color-base-100);
+}
+
+table tr:hover {
+  background-color: rgba(0, 191, 255, 0.05);
+}
+
+/* Math LaTeX */
+.math {
+  color: var(--accent-cyan);
+}
+
+/* Checklist */
+input[type="checkbox"] {
+  accent-color: var(--primary-green);
+}
+
+.task-list-item-checkbox {
+  accent-color: var(--primary-green);
+}
+
+.task-list-item.is-checked .task-list-item-label {
+  color: var(--color-base-30);
+  text-decoration: strikethrough;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 2px solid var(--primary-green);
+  margin: 20px 0;
+}
+
+/* Metadata */
+.metadata-property {
+  color: var(--accent-cyan);
+}
+
+.metadata-property-value {
+  color: var(--primary-blue);
+}
+
+/* Gutter */
+.gutter {
+  background-color: var(--color-base-20);
+  border-right: 1px solid var(--primary-green);
+}
+
+/* Overall font improvements */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Fira Code', sans-serif;
+  letter-spacing: 0.3px;
+}
+
+/* Selection highlight */
+::selection {
+  background-color: rgba(0, 255, 136, 0.3);
+  color: var(--color-base-100);
+}

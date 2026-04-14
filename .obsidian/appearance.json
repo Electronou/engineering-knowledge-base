@@ -1,0 +1,11 @@
+{
+  "accentColor": "#00ff88",
+  "baseFontSize": 16,
+  "baseFontFamily": "Fira Code, monospace",
+  "cssTheme": "obsidian",
+  "theme": "dark",
+  "--accent-h": "120",
+  "--accent-s": "100%",
+  "--accent-l": "53%",
+  "--interactive-accent-hover": "#00dd77"
+}

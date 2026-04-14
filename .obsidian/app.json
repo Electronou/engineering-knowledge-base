@@ -1,0 +1,17 @@
+{
+  "pluginEnabledStatus": {},
+  "maxAtomicRename": 300,
+  "spellcheck": true,
+  "spellcheckDictionary": [],
+  "promptDelete": true,
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "showFrontmatter": false,
+  "strictLineBreaks": false,
+  "showIndentGuide": true,
+  "cssSnippets": {
+    "hacker-theme": true
+  },
+  "readableLineLength": true,
+  "legacyEditor": false
+}

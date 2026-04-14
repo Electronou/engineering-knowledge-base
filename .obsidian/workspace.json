@@ -1,0 +1,46 @@
+{
+  "main": {
+    "id": "main",
+    "type": "split",
+    "children": [
+      {
+        "id": "leaf-0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ]
+  },
+  "right": {
+    "id": "right",
+    "type": "sidebar",
+    "children": [
+      {
+        "id": "backlinks",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "README.md"
+          }
+        }
+      },
+      {
+        "id": "outline",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "README.md"
+          }
+        }
+      }
+    ]
+  }
+}
