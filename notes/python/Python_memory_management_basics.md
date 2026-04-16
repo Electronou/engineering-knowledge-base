@@ -2,6 +2,7 @@ Python’s “internal storage” isn’t one single thing—it’s a combinatio
 
 ---
 ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/20201210222125/Untitled4-660x361.png)
+[text](https://www.youtube.com/watch?v=OdQSWuG78Sk&pp=ygUfc3RhY2sgYW5kIGhlYXAgbWVtb3J5IGluIHB5dGhvbg%3D%3D)
 
 # 🧠 1. Everything in Python is an Object
 
