@@ -1,1 +1,1 @@
-Avinash
+Avinashgit credential-manager-core erase https://github.com
